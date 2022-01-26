@@ -1,0 +1,21 @@
+{
+    "name": "vgplay/contracts",
+    "description": "Contracts",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^6|^7|^8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vgplay\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dung199951",
+            "email": "dung199551@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
