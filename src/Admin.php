@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 interface Admin
 {
     public function roles(): BelongsToMany;
-    public function roleUsers(): HasMany;
     public function hasRole($name): bool;
     public function hasPermission($name): bool;
 }
