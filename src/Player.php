@@ -5,5 +5,5 @@ namespace Vgplay\Contracts;
 interface Player
 {
     public function getId();
-    public function payForReward(Product $reward);
+    public function pay($amount, $type);
 }
